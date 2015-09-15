@@ -4,7 +4,7 @@ public int scoresAverage(int[] scores) {
   int halfOfArr = scores.length/2;
   int endOfArr = scores.length;
   int aver1 = average(scores, begOfArr, halfOfArr);
-  int aver2 = average (scores, halfOfArr, endOfArr);
+  int aver2 = average(scores, halfOfArr, endOfArr);
 
   if (aver1 - aver2 > 0) {
       return aver1;
